@@ -332,6 +332,42 @@ img {
     margin-right: 30px;
 }
 
+/*----Team social link-------*/
+
+.team-social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.team-social-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.team-social-link {
+    margin-top: 16px;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--icon-color);
+}
+
+.team-social-icon {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-first-text-color);
+    border-radius: 20px;
+
+}
+
 /*------------------Clients--------------------*/
 .clients {
     padding-top: 0;
