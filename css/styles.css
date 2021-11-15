@@ -237,15 +237,15 @@ img {
    margin-right: 30px;
 }
 
-.details-icon {
+.details-box-icon {
     margin-bottom: 30px;
-    display: block;
-    content: '';
+
+    display: flex;
+    width: 270px;
     height: 120px;
-   
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    align-items: center;
+    justify-content: center;
+      
     background-color: var(--primary-team-background-color);
     border-radius: 4px;
 }
@@ -364,7 +364,7 @@ img {
 .team-social-link:focus {
     background-color: var(--accent-color);
     color: var(--primary-first-text-color);
-    border-radius: 20px;
+    border-radius: 50%;
 
 }
 
@@ -422,6 +422,12 @@ img {
     padding: 60px 0;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    
+}
+
 .footer-logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -463,6 +469,50 @@ img {
 
     color: var(--foter-mail-color);
 }
+
+.footer-social-text {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--primary-first-text-color);
+}
+
+.footer-box:not(:last-child) {
+    margin-right: 70px;
+}
+
+.footer-social-list {
+    display: flex;
+}
+
+.footer-social-link {
+    margin-right: 10px;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: var(--primary-first-text-color);
+}
+
+.footer-social-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+
 
 /********************************************************************************************/
 /*-------------------------PORTFOLIO-----------------------*/
