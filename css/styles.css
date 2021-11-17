@@ -142,7 +142,8 @@ img {
     width: 10px;
     height: 16px;
 }
-
+.header-link:hover,
+.header-link:focus,
 .header-tel-link:hover,
 .header-tel-link:focus,
 .header-mail-link:hover,
