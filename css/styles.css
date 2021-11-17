@@ -497,8 +497,12 @@ img {
 }
 
 .footer-social-list {
-     margin-right: 10px;
+   /* margin-right: 10px;*/
     display: flex;
+}
+
+.footer-social-item {
+    margin-right: 10px;
 }
 
 .footer-social-link {
