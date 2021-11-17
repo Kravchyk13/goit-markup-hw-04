@@ -125,6 +125,8 @@ img {
 
 .header-tel-link,
 .header-mail-link {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -161,7 +163,7 @@ img {
     padding: 200px 0;
     margin: 0 auto;
 
-    min-width: 1600px;
+    max-width: 1600px;
     height: 600px;
     background-color:var(--primary-background-color);
     background-image: linear-gradient( 
@@ -251,6 +253,11 @@ img {
     border-radius: 4px;
 }
 
+.details-icon {
+    width: 70px;
+    height: 70px;
+}
+
 
 /*----------------------DOING SECTION--------------------*/
 
@@ -329,6 +336,10 @@ img {
     display: flex;
 }
 
+.team-item {
+    background-color: var(--main-background-color);
+}
+
 .team-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -336,6 +347,7 @@ img {
 /*----Team social link-------*/
 
 .team-social-list {
+    margin-top: 16px;
     display: flex;
     justify-content: center;
 }
@@ -345,7 +357,6 @@ img {
 }
 
 .team-social-link {
-    margin-top: 16px;
     display: flex;
     width: 44px;
     height: 44px;
@@ -370,10 +381,6 @@ img {
 }
 
 /*------------------Clients--------------------*/
-.clients {
-    padding-top: 0;
-   
-}
 
 .clients-tittle {
     margin-bottom: 50px;
@@ -399,6 +406,7 @@ img {
     width: 170px;
     height: 92px;
     align-items: center;
+    justify-content: center;
   
     border: 1px solid var(--icon-color);
     border-radius: 4px;
@@ -413,6 +421,8 @@ img {
 
 .clients-icon {
     fill: currentColor;
+    width: 106px;
+    height: 60px;
 }
 
 
@@ -487,11 +497,11 @@ img {
 }
 
 .footer-social-list {
+     margin-right: 10px;
     display: flex;
 }
 
 .footer-social-link {
-    margin-right: 10px;
     display: flex;
     width: 44px;
     height: 44px;
@@ -595,6 +605,20 @@ img {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+}
+
+.gallery-link {
+    display: block;
+    color: var(--primary-second-text-color);
+}
+
+
+.gallery-link:hover,
+.gallery-link:focus {
+
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
